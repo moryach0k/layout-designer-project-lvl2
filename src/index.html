@@ -4,9 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Главная Music Box</title>
 </head>
 <body>
-  
+  <section class="hero">
+    <nav class="hero__navigation navigation">
+      <div class="navigation__left-side">
+        <div class="logo">
+          <img src="images/logo.svg" alt="Логотип Music Box" class="logo__img">
+          <div class="logo__title">Music Box</div>
+        </div>
+        <ul class="navigation__items">
+          <li class="navigation__item">Главная</li>
+          <li class="navigation__item">Каталог</li>
+          <li class="navigation__item">Исполнители</li>
+          <li class="navigation__item">Контакты</li>
+        </ul>
+      </div>
+      <div class="navigation__right-side">
+        <form action="#" class="search-form">
+          <input class="search-form__input" type="search" placeholder="Поиск...">
+        </form>
+      </div>
+    </nav>
+    <h1 class="hero__title title-xxl">Онлайн музыка где угодно</h1>
+    <h2 class="hero__subtitle title-xl">без ограничений</h2>
+    <p class="hero__text text-md">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+    <form class="get-access-form" action="#">
+      <input class="get-access-form__input" type="text" placeholder="Имя">
+      <input class="get-access-form__input" type="email" placeholder="Email">
+      <button class="get-access-form__btn btn btn_primary">Получить доступ</button>
+    </form>
+  </section>
 </body>
 </html>

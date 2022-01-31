@@ -1,0 +1,87 @@
+@each $value in $spacings {
+  .mx-#{$value} {
+    margin-right: #{$value}px;
+    margin-left: #{$value}px;
+  }
+
+  .my-#{$value} {
+    margin-top: #{$value}px;
+    margin-bottom: #{$value}px;
+  }
+
+  .mt-#{$value} {
+    margin-top: #{$value}px;
+  }
+
+  .mr-#{$value} {
+    margin-right: #{$value}px;
+  }
+
+  .mb-#{$value} {
+    margin-bottom: #{$value}px;
+  }
+
+  .ml-#{$value} {
+    margin-left: #{$value}px;
+  }
+}
+
+@include media-up(md) {
+  @each $value in $spacings {
+    .mx-md-#{$value} {
+      margin-right: #{$value}px;
+      margin-left: #{$value}px;
+    }
+
+    .my-md-#{$value} {
+      margin-top: #{$value}px;
+      margin-bottom: #{$value}px;
+    }
+
+    .mt-md-#{$value} {
+      margin-top: #{$value}px;
+    }
+
+    .mr-md-#{$value} {
+      margin-right: #{$value}px;
+    }
+
+    .mb-md-#{$value} {
+      margin-bottom: #{$value}px;
+    }
+
+    .ml-md-#{$value} {
+      margin-left: #{$value}px;
+    }
+  }
+}
+
+@include media-up(xl) {
+  @each $value in $spacings {
+    .mx-xl-#{$value} {
+      margin-right: #{$value}px;
+      margin-left: #{$value}px;
+    }
+
+    .my-xl-#{$value} {
+      margin-top: #{$value}px;
+      margin-bottom: #{$value}px;
+    }
+
+    .mt-xl-#{$value} {
+      margin-top: #{$value}px;
+    }
+
+    .mr-xl-#{$value} {
+      margin-right: #{$value}px;
+    }
+
+    .mb-xl-#{$value} {
+      margin-bottom: #{$value}px;
+    }
+
+    .ml-xl-#{$value} {
+      margin-left: #{$value}px;
+    }
+  }
+}

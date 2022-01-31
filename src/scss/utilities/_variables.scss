@@ -1,0 +1,19 @@
+$black: rgb(8, 2, 13);
+$gray-100: rgb(60, 59, 61);
+$gray-95: rgb(117, 117, 117);
+$gray-90: rgb(202, 202, 202);
+$gray-80: rgb(224, 224, 224);
+$brown: rgb(149, 57, 12);
+$purple: rgb(83, 40, 161);
+$orange: rgb(248, 146, 2);
+$green: rgb(52, 193, 118);
+$white: rgb(255, 255, 255);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 414px,
+  md: 834px,
+  xl: 1240px
+);
+
+$spacings: (0, 2, 16, 18, 24, 40, 48, 50, 55, 64, 90, 200);

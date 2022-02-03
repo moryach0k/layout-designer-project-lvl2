@@ -7,7 +7,9 @@ $brown: rgb(149, 57, 12);
 $purple: rgb(83, 40, 161);
 $orange: rgb(248, 146, 2);
 $green: rgb(52, 193, 118);
+$green-90: rgb(27, 163, 91);
 $white: rgb(255, 255, 255);
+$white-10: rgba(255, 255, 255, 0.1);
 
 $grid-breakpoints: (
   xs: 0,
@@ -16,4 +18,4 @@ $grid-breakpoints: (
   xl: 1240px
 );
 
-$spacings: (0, 2, 16, 18, 24, 40, 48, 50, 55, 64, 90, 200);
+$spacings: (0, 2, 16, 18, 24, 30, 40, 48, 50, 55, 64, 90, 200);

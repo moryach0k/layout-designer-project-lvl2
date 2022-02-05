@@ -12,12 +12,13 @@
   text-align: center;
 }
 
+
 h1 {
   font-weight: bold;
   font-size: 30px;
   line-height: 1.5;
   text-transform: uppercase;
-
+  
   @include media-up(xl) {
     font-size: 60px;
   }
@@ -28,7 +29,7 @@ h2 {
   font-size: 18px;
   line-height: 1.5;
   text-transform: uppercase;
-
+  
   @include media-up(xl) {
     font-size: 38px;
   }
@@ -39,10 +40,14 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   text-transform: uppercase;
-
+  
   @include media-up(md) {
     font-weight: normal;
     font-size: 24px;
     line-height: 1.5;
   }
+}
+
+.txt-tt-none {
+  text-transform: none;
 }

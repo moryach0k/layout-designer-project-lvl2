@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__img {
+  width: 24px;
+  height: 24px;
+}
+
+.logo__title {
+  @include txt-xs;
+  color: $white;
+  font-weight: bold;
+  text-transform: uppercase;
+}

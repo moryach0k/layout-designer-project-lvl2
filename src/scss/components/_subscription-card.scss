@@ -1,0 +1,56 @@
+.subscription-card {
+  @include txt-center;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 64px;
+  padding-left: 24px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.subscription-card__title {
+  @include txt-sm;
+  text-transform: uppercase;
+  
+  @include media-up(md) {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+}
+
+.subscription-card_bg-free {
+  background-image: url('../../src/images/subscribe_1.png');
+}
+
+.subscription-card_bg-standard {
+  background-image: url('../../src/images/subscribe_2.png');
+}
+
+.subscription-card_bg-premium {
+  background-image: url('../../src/images/subscribe_3.png');
+}
+
+.subscription-card__price {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.subscription-card__btn {
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: none;
+  border: 1px solid $white;
+
+  &:hover {
+    background-color: $white-10;
+  }
+}
+
+.subscription-card__description {
+  @include txt-xs;
+  margin: 0;
+}

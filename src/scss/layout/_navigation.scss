@@ -1,0 +1,60 @@
+.navigation {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navigation__wrapper {
+  padding-right: 20px;
+  padding-left: 20px;
+
+  @include media-up(md) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @include media-up(xl) {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.navigation__left-side {
+  @include media-up(md) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.navigation__items {
+  @include media-up(md) {
+    display: flex;
+  }
+}
+
+.navigation__item {
+  @include txt-xs;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @include media-up(md) {
+    font-weight: normal;
+  }
+}
+
+.navigation__link {
+  &:hover {
+    color: $white;
+  }
+}
+
+.navigation__link_active {
+  color: $white;
+
+  &:visited {
+    color: $white;
+  }
+}

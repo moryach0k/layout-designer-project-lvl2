@@ -1,10 +1,55 @@
+@mixin txt-xs {
+  font-size: 12.8px;
+  line-height: 1.5;
+}
+
 @mixin txt-sm {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 @mixin txt-md {
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@mixin txt-lg {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+@mixin txt-xl {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+@mixin txt-2xl {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+@mixin txt-3xl {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+@mixin txt-4xl {
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+@mixin txt-5xl {
+  font-size: 56px;
+  line-height: 1.5;
+}
+
+@mixin txt-6xl {
+  font-size: 60px;
+  line-height: 1.5;
+}
+
+@mixin txt-7xl {
+  font-size: 64px;
   line-height: 1.5;
 }
 
@@ -12,9 +57,11 @@
   text-align: center;
 }
 
+@mixin txt-left {
+  text-align: left;
+}
 
 h1 {
-  font-weight: bold;
   font-size: 30px;
   line-height: 1.5;
   text-transform: uppercase;
@@ -25,9 +72,7 @@ h1 {
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 1.5;
+  @include txt-md;
   text-transform: uppercase;
   
   @include media-up(xl) {
@@ -35,17 +80,9 @@ h2 {
   }
 }
 
-h3 {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.5;
+h4 {
+  @include txt-md;
   text-transform: uppercase;
-  
-  @include media-up(md) {
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 1.5;
-  }
 }
 
 .txt-tt-none {

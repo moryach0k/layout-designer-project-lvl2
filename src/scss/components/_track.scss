@@ -1,0 +1,36 @@
+.track {
+  display: flex;
+  align-items: center;
+}
+
+.track:hover .track__cover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.track__info {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.track__name {
+  @include txt-xs;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.track__artist {
+  @include txt-xs;
+  color: $gray-80;
+}
+
+.track__length {
+  @include txt-xs;
+  color: $gray-80;
+}
+
+.track__cover {
+  order: -1;
+}

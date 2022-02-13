@@ -1,0 +1,36 @@
+.footer {
+  background: $gradient-purple-to-brown;
+}
+
+.footer__first-stage {
+  display: flex;
+  flex-direction: column;
+  padding-top: 62px;
+
+  @include media-up(md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer__second-stage {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.footer__second-stage::before {
+  position: absolute;
+  height: 1px;
+  background-color: $gray-90;
+  content: '';
+}
+
+.footer__item {
+  @include txt-sm;
+}
+
+.footer__social-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}

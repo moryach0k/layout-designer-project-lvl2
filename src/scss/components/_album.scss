@@ -1,0 +1,30 @@
+.album {
+  display: flex;
+  flex-direction: column;
+}
+
+.album:hover .album__cover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.album__title {
+  @include txt-md;
+  color: $white;
+  text-transform: capitalize;
+}
+
+.album__year {
+  @include txt-sm;
+  display: block;
+  color: $gray-80;
+}
+
+.album__cover {
+  order: -1;
+
+  @include media-up(xl) {
+    width: 250px;
+    height: 250px;
+  }
+}

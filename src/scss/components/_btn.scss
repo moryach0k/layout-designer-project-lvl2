@@ -1,0 +1,55 @@
+.btn {
+  color: $white;
+  border-width: 0;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btn_lg {
+  padding-top: 16px;
+  padding-right: 40px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+}
+
+.btn_with-icon {
+  @include txt-left;
+  width: 200px;
+  padding-left: 30px;
+}
+
+.btn_py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn_rounded {
+  border-radius: $rounded-corners;
+}
+
+.btn_uppercase {
+  text-transform: uppercase;
+}
+
+.btn_purple {
+  background-color: $purple;
+}
+
+.btn_brown {
+  background-color: $brown;
+}
+
+.btn__icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  filter: invert(1);
+}
+
+.btn__txt {
+  @include txt-xs;
+  text-transform: uppercase;
+}

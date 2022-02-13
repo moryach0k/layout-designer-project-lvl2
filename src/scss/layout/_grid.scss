@@ -1,0 +1,79 @@
+.wrapper {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  @include media-up(xl) {
+    width: 1200px;
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.wrapper_pt-100 {
+  padding-top: 100px;
+}
+
+.wrapper_py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.grid_autofit-138 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 138px);
+  column-gap: 50px;
+  row-gap: 25px;
+
+  @include media-up(xl) {
+    grid-template-columns: repeat(auto-fit, 250px);
+  }
+}
+
+.grid_autofit-374 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
+  column-gap: 50px;
+  row-gap: 25px;
+
+  @include media-up(xl) {
+    grid-template-columns: repeat(auto-fit, 551px);
+  }
+}
+
+.grid-gap-50 {
+  @include media-up(md) {
+    display: flex;
+    gap: 20px;
+  }
+
+  @include media-up(xl) {
+    gap: 50px;
+  }
+}
+
+.grid-reverse {
+  @include media-up(md) {
+    flex-direction: row-reverse;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.md-d-flex {
+  @include media-up(md) {
+    display: flex;
+  }
+}
+
+.grid-col {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.align-center {
+  text-align: center;
+}

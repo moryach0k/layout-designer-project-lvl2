@@ -1141,7 +1141,7 @@ input {
 }
 
 .navigation__item {
-  font-size: 12.8px;
+  font-size: 11px;
   line-height: 1.5;
   font-weight: bold;
   text-transform: uppercase;
@@ -1198,6 +1198,18 @@ input {
   }
 }
 
+.grid_autofit-270 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  row-gap: 40px;
+  column-gap: 30px;
+}
+@media (min-width: 1240px) {
+  .grid_autofit-270 {
+    grid-template-columns: repeat(auto-fit, 270px);
+  }
+}
+
 .grid_autofit-374 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
@@ -1219,6 +1231,28 @@ input {
 @media (min-width: 1240px) {
   .grid-gap-50 {
     gap: 50px;
+  }
+}
+
+.grid-gap-24 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.grid-gap-16 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+@media (min-width: 834px) {
+  .flex-md-row {
+    flex-direction: row;
   }
 }
 
@@ -1251,33 +1285,24 @@ input {
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
 
-.footer__first-stage {
-  display: flex;
-  flex-direction: column;
+.footer__main-menu {
   padding-top: 62px;
-}
-@media (min-width: 834px) {
-  .footer__first-stage {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  padding-bottom: 72px;
 }
 
-.footer__second-stage {
+.footer__secondary-menu {
   padding-top: 40px;
-  padding-bottom: 50px;
-}
-
-.footer__second-stage::before {
-  position: absolute;
-  height: 1px;
-  background-color: #cacaca;
-  content: "";
+  padding-bottom: 48px;
+  border-top: 1px solid white;
 }
 
 .footer__item {
   font-size: 16px;
   line-height: 1.5;
+}
+
+.footer__link:hover {
+  color: white;
 }
 
 .footer__social-links {
@@ -1324,6 +1349,11 @@ input {
   text-align: left;
   width: 200px;
   padding-left: 30px;
+}
+
+.btn_with-icon:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 .btn_py-20 {
@@ -1577,6 +1607,11 @@ input {
   padding-bottom: 225px;
   background-position: center;
   background-size: cover;
+}
+@media (min-width: 1240px) {
+  .artist-preview {
+    padding-top: 250px;
+  }
 }
 
 .artist-preview_bg-morten-harket {

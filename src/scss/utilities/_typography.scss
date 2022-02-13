@@ -1,3 +1,8 @@
+@mixin txt-xxs {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
 @mixin txt-xs {
   font-size: 12.8px;
   line-height: 1.5;

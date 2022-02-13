@@ -2,31 +2,23 @@
   background: $gradient-purple-to-brown;
 }
 
-.footer__first-stage {
-  display: flex;
-  flex-direction: column;
+.footer__main-menu {
   padding-top: 62px;
-
-  @include media-up(md) {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  padding-bottom: 72px;
 }
 
-.footer__second-stage {
+.footer__secondary-menu {
   padding-top: 40px;
-  padding-bottom: 50px;
-}
-
-.footer__second-stage::before {
-  position: absolute;
-  height: 1px;
-  background-color: $gray-90;
-  content: '';
+  padding-bottom: 48px;
+  border-top: 1px solid $white;
 }
 
 .footer__item {
   @include txt-sm;
+}
+
+.footer__link:hover {
+  color: $white;
 }
 
 .footer__social-links {

@@ -21,6 +21,11 @@
   padding-left: 30px;
 }
 
+.btn_with-icon:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
 .btn_py-20 {
   padding-top: 20px;
   padding-bottom: 20px;

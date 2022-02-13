@@ -1511,15 +1511,15 @@ input {
 }
 
 .subscription-card_bg-free {
-  background-image: url("../../src/images/subscribe_1.png");
+  background-image: url("../images/subscribe_1.png");
 }
 
 .subscription-card_bg-standard {
-  background-image: url("../../src/images/subscribe_2.png");
+  background-image: url("../images/subscribe_2.png");
 }
 
 .subscription-card_bg-premium {
-  background-image: url("../../src/images/subscribe_3.png");
+  background-image: url("../images/subscribe_3.png");
 }
 
 .subscription-card__price {
@@ -1615,7 +1615,7 @@ input {
 }
 
 .artist-preview_bg-morten-harket {
-  background-image: url("../../src/images/Morten Harket.png");
+  background-image: url("../images/Morten Harket.png");
 }
 
 .track {
@@ -1741,7 +1741,7 @@ input {
 }
 
 .hero_main-bg {
-  background-image: url("../../src/images/banner.png");
+  background-image: url("../images/banner.png");
 }
 
 .hero__title {

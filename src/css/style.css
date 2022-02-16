@@ -186,6 +186,32 @@ h4 {
   margin-left: 30px;
 }
 
+.mx-32 {
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.my-32 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mr-32 {
+  margin-right: 32px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.ml-32 {
+  margin-left: 32px;
+}
+
 .mx-40 {
   margin-right: 40px;
   margin-left: 40px;
@@ -525,6 +551,32 @@ h4 {
     margin-left: 30px;
   }
 
+  .mx-md-32 {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+
+  .my-md-32 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .mt-md-32 {
+    margin-top: 32px;
+  }
+
+  .mr-md-32 {
+    margin-right: 32px;
+  }
+
+  .mb-md-32 {
+    margin-bottom: 32px;
+  }
+
+  .ml-md-32 {
+    margin-left: 32px;
+  }
+
   .mx-md-40 {
     margin-right: 40px;
     margin-left: 40px;
@@ -862,6 +914,32 @@ h4 {
 
   .ml-xl-30 {
     margin-left: 30px;
+  }
+
+  .mx-xl-32 {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+
+  .my-xl-32 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .mt-xl-32 {
+    margin-top: 32px;
+  }
+
+  .mr-xl-32 {
+    margin-right: 32px;
+  }
+
+  .mb-xl-32 {
+    margin-bottom: 32px;
+  }
+
+  .ml-xl-32 {
+    margin-left: 32px;
   }
 
   .mx-xl-40 {
@@ -1504,9 +1582,9 @@ input {
 }
 @media (min-width: 834px) {
   .subscription-card__title {
-    font-weight: normal;
     font-size: 24px;
     line-height: 1.5;
+    font-weight: normal;
   }
 }
 

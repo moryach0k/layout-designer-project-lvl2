@@ -4,7 +4,9 @@ $gray-95: rgb(117, 117, 117);
 $gray-90: rgb(202, 202, 202);
 $gray-80: rgb(224, 224, 224);
 $brown: rgb(149, 57, 12);
+$brown-90: rgb(136, 54, 13);
 $purple: rgb(83, 40, 161);
+$purple-90: rgb(66, 23, 146);
 $orange: rgb(248, 146, 2);
 $green: rgb(52, 193, 118);
 $green-90: rgb(27, 163, 91);
@@ -13,7 +15,7 @@ $white-10: rgba(255, 255, 255, 0.1);
 
 $gradient-purple-to-brown: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 
-$rounded-corners: 1000px;
+$rounded-corners: 32px;
 
 $grid-breakpoints: (
   xs: 0,

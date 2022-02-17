@@ -34,24 +34,8 @@
   &::placeholder {
     color: $white;
   }
-
+  
   @include media-up(md) {
     max-width: 270px;
-  }
-}
-
-.sign-up-form__btn {
-  display: block;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: $green;
-
-  &:hover {
-    background-color: $green-90;
-  }
-
-  &:focus {
-    outline: 2px solid $white;
   }
 }

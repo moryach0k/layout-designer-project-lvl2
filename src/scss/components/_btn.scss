@@ -1,5 +1,11 @@
 .btn {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
   color: $white;
+  text-transform: uppercase;
   border-width: 0;
   border-radius: 5px;
 
@@ -8,43 +14,80 @@
   }
 }
 
-.btn_lg {
+.btn_md {
   padding-top: 16px;
   padding-right: 40px;
   padding-bottom: 16px;
   padding-left: 40px;
 }
 
-.btn_with-icon {
-  @include txt-left;
+.btn_sm {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.btn_full-width {
+  display: block;
+  width: 100%;
+}
+
+.btn-outline {
+  border-style: solid;
+  border-width: 1px;
+
+  &:hover {
+    background-color: $white-10;
+  }
+}
+
+.btn-outline_white {
+  border-color: $white;
+}
+
+.btn-outline_gray {
+  color: $gray-90;
+  border-color: $gray-90;
+}
+
+.btn_w-icon {
   width: 200px;
-  padding-left: 30px;
+  text-align: left;
 }
 
-.btn_with-icon:hover {
-  transform: scale(1.05);
-  transition: 0.2s;
-}
-
-.btn_py-20 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.btn_txt-xs {
+  @include txt-xs;
 }
 
 .btn_rounded {
   border-radius: $rounded-corners;
 }
 
-.btn_uppercase {
-  text-transform: uppercase;
+.btn_tt-none {
+  text-transform: none;
+}
+
+.btn_green {
+  background-color: $green;
+  
+  &:hover {
+    background-color: $green-90;
+  }
 }
 
 .btn_purple {
   background-color: $purple;
+
+  &:hover {
+    background-color: $purple-90;
+  }
 }
 
 .btn_brown {
   background-color: $brown;
+
+  &:hover {
+    background-color: $brown-90;
+  }
 }
 
 .btn__icon {
@@ -52,9 +95,4 @@
   height: 20px;
   vertical-align: middle;
   filter: invert(1);
-}
-
-.btn__txt {
-  @include txt-xs;
-  text-transform: uppercase;
 }

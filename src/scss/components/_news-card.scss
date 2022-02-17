@@ -29,17 +29,3 @@
   @include txt-xs;
   color: $gray-90;
 }
-
-.news-card__btn {
-  padding-top: 16px;
-  padding-right: 30px;
-  padding-bottom: 16px;
-  padding-left: 30px;
-  color: $gray-90;
-  background: none;
-  border: 1px solid $gray-90;
-
-  &:hover {
-    background-color: $white-10;
-  }
-}

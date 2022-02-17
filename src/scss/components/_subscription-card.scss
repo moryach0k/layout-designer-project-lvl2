@@ -36,19 +36,6 @@
   line-height: 1;
 }
 
-.subscription-card__btn {
-  display: block;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: none;
-  border: 1px solid $white;
-
-  &:hover {
-    background-color: $white-10;
-  }
-}
-
 .subscription-card__description {
   @include txt-xs;
   margin: 0;

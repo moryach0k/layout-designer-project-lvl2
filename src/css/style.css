@@ -1601,13 +1601,13 @@ input {
 .subscription-card__title {
   font-size: 16px;
   line-height: 1.5;
+  font-weight: normal;
   text-transform: uppercase;
 }
 @media (min-width: 834px) {
   .subscription-card__title {
     font-size: 24px;
     line-height: 1.5;
-    font-weight: normal;
   }
 }
 
@@ -1651,7 +1651,7 @@ input {
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
-  text-transform: none;
+  text-transform: capitalize;
 }
 @media (min-width: 1240px) {
   .news-card__title {
@@ -1679,15 +1679,10 @@ input {
 }
 
 .artist-preview {
-  padding-top: 225px;
-  padding-bottom: 225px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-position: center;
   background-size: cover;
-}
-@media (min-width: 1240px) {
-  .artist-preview {
-    padding-top: 250px;
-  }
 }
 
 .artist-preview_bg-morten-harket {

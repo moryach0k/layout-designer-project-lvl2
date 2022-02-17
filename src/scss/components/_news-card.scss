@@ -7,7 +7,7 @@
 .news-card__title {
   @include txt-sm;
   font-weight: normal;
-  text-transform: none;
+  text-transform: capitalize;
 
   @include media-up(xl) {
     font-size: 30px;

@@ -11,11 +11,11 @@
 
 .subscription-card__title {
   @include txt-sm;
+  font-weight: normal;
   text-transform: uppercase;
   
   @include media-up(md) {
     @include txt-lg;
-    font-weight: normal;
   }
 }
 

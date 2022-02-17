@@ -3,11 +3,6 @@
   align-items: center;
 }
 
-.track:hover .track__cover {
-  transform: scale(1.05);
-  transition: 0.2s;
-}
-
 .track__info {
   display: flex;
   flex-grow: 1;

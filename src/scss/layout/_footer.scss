@@ -13,6 +13,11 @@
   border-top: 1px solid $white;
 }
 
+.footer__header {
+  @include txt-md;
+  text-transform: uppercase;
+}
+
 .footer__item {
   @include txt-sm;
 }

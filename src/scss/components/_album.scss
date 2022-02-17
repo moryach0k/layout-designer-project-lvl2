@@ -3,11 +3,6 @@
   flex-direction: column;
 }
 
-.album:hover .album__cover {
-  transform: scale(1.05);
-  transition: 0.2s;
-}
-
 .album__title {
   @include txt-md;
   color: $white;

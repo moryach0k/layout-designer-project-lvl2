@@ -4,11 +4,6 @@
   flex-direction: column;
 }
 
-.artist:hover .artist__photo {
-  transform: scale(1.05);
-  transition: 0.2s;
-}
-
 .artist__name {
   @include txt-md;
   color: $white;

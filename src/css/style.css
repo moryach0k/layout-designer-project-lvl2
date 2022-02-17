@@ -364,6 +364,32 @@ h4 {
   margin-left: 90px;
 }
 
+.mx-100 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.my-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mr-100 {
+  margin-right: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+
 .mx-200 {
   margin-right: 200px;
   margin-left: 200px;
@@ -727,6 +753,32 @@ h4 {
 
   .ml-md-90 {
     margin-left: 90px;
+  }
+
+  .mx-md-100 {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .my-md-100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .mt-md-100 {
+    margin-top: 100px;
+  }
+
+  .mr-md-100 {
+    margin-right: 100px;
+  }
+
+  .mb-md-100 {
+    margin-bottom: 100px;
+  }
+
+  .ml-md-100 {
+    margin-left: 100px;
   }
 
   .mx-md-200 {
@@ -1094,6 +1146,32 @@ h4 {
     margin-left: 90px;
   }
 
+  .mx-xl-100 {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .my-xl-100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .mt-xl-100 {
+    margin-top: 100px;
+  }
+
+  .mr-xl-100 {
+    margin-right: 100px;
+  }
+
+  .mb-xl-100 {
+    margin-bottom: 100px;
+  }
+
+  .ml-xl-100 {
+    margin-left: 100px;
+  }
+
   .mx-xl-200 {
     margin-right: 200px;
     margin-left: 200px;
@@ -1176,6 +1254,10 @@ input {
   padding: 0;
   color: white;
   border: 0;
+}
+
+button {
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 .navigation {
@@ -1375,6 +1457,12 @@ input {
   padding-top: 40px;
   padding-bottom: 48px;
   border-top: 1px solid white;
+}
+
+.footer__header {
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .footer__item {
@@ -1694,11 +1782,6 @@ input {
   align-items: center;
 }
 
-.track:hover .track__cover {
-  transform: scale(1.05);
-  transition: 0.2s;
-}
-
 .track__info {
   display: flex;
   flex-grow: 1;
@@ -1734,11 +1817,6 @@ input {
   flex-direction: column;
 }
 
-.album:hover .album__cover {
-  transform: scale(1.05);
-  transition: 0.2s;
-}
-
 .album__title {
   font-size: 18px;
   line-height: 1.5;
@@ -1767,11 +1845,6 @@ input {
   text-align: center;
   display: flex;
   flex-direction: column;
-}
-
-.artist:hover .artist__photo {
-  transform: scale(1.05);
-  transition: 0.2s;
 }
 
 .artist__name {

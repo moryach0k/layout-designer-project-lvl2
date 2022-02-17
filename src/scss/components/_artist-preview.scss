@@ -1,11 +1,11 @@
 .artist-preview {
-  padding-top: 250px;
+  padding-top: 225px;
   padding-bottom: 200px;
   background-position: center;
   background-size: cover;
 
   @include media-up(xl) {
-    padding-top: 225px;
+    padding-top: 250px;
   }
 }
 

@@ -1283,6 +1283,8 @@ button {
   .navigation__wrapper {
     width: 1200px;
     margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
@@ -1505,6 +1507,8 @@ button {
 .logo__title {
   font-size: 12.8px;
   line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -1779,14 +1783,14 @@ button {
 }
 
 .artist-preview {
-  padding-top: 250px;
+  padding-top: 225px;
   padding-bottom: 200px;
   background-position: center;
   background-size: cover;
 }
 @media (min-width: 1240px) {
   .artist-preview {
-    padding-top: 225px;
+    padding-top: 250px;
   }
 }
 

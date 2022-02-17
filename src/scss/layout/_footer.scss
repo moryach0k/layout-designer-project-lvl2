@@ -20,6 +20,7 @@
 
 .footer__item {
   @include txt-sm;
+  color: $gray-90;
 }
 
 .footer__link:hover {

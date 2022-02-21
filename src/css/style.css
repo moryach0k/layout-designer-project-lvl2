@@ -1295,9 +1295,14 @@ button {
   }
 }
 
+.navigation__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 @media (min-width: 834px) {
   .navigation__items {
-    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -1785,7 +1790,7 @@ button {
 
 .artist-preview {
   padding-top: 225px;
-  padding-bottom: 200px;
+  padding-bottom: 225px;
   background-position: center;
   background-size: cover;
 }
@@ -1797,6 +1802,11 @@ button {
 
 .artist-preview_bg-morten-harket {
   background-image: url("../images/Morten Harket.png");
+}
+
+.artitst-preview__subtitle {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .track {

@@ -1,6 +1,6 @@
 .artist-preview {
   padding-top: 225px;
-  padding-bottom: 200px;
+  padding-bottom: 225px;
   background-position: center;
   background-size: cover;
 
@@ -11,4 +11,8 @@
 
 .artist-preview_bg-morten-harket {
   background-image: url('../images/Morten\ Harket.png');
+}
+
+.artitst-preview__subtitle {
+  @include txt-sm;
 }

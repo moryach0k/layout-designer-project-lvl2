@@ -1383,12 +1383,13 @@ button {
 .grid_autofit-270 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  row-gap: 40px;
+  row-gap: 30px;
   column-gap: 30px;
 }
 @media (min-width: 1240px) {
   .grid_autofit-270 {
     grid-template-columns: repeat(auto-fit, 270px);
+    row-gap: 40px;
   }
 }
 

@@ -1689,6 +1689,11 @@ button {
   border: 2px solid #cacaca;
   border-radius: 3px;
 }
+@media (min-width: 834px) {
+  .sign-up-form__input {
+    max-width: 270px;
+  }
+}
 .sign-up-form__input:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1697,11 +1702,6 @@ button {
 }
 .sign-up-form__input::placeholder {
   color: white;
-}
-@media (min-width: 834px) {
-  .sign-up-form__input {
-    max-width: 270px;
-  }
 }
 
 .subscription-card {
@@ -1785,6 +1785,7 @@ button {
 .news-card__author-name {
   font-size: 12.8px;
   line-height: 1.5;
+  display: inline-block;
   color: #f89202;
   text-transform: uppercase;
 }
@@ -1792,6 +1793,7 @@ button {
 .news-card__publishing-date {
   font-size: 12.8px;
   line-height: 1.5;
+  display: inline-block;
   color: #cacaca;
 }
 

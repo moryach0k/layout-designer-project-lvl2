@@ -21,11 +21,13 @@
 
 .news-card__author-name {
   @include txt-xs;
+  display: inline-block;
   color: $orange;
   text-transform: uppercase;
 }
 
 .news-card__publishing-date {
   @include txt-xs;
+  display: inline-block;
   color: $gray-90;
 }

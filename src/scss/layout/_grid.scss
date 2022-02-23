@@ -72,10 +72,6 @@
 .grid-gap-50 {
   @include media-up(md) {
     display: flex;
-    gap: 20px;
-  }
-
-  @include media-up(xl) {
     gap: 50px;
   }
 }

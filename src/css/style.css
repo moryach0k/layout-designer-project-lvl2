@@ -1176,12 +1176,13 @@ h4 {
     margin-left: 200px;
   }
 }
-.m-center {
-  margin: 0 auto;
+.pt-100 {
+  padding-top: 100px;
 }
 
-.full-width {
-  width: 100%;
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 html {
@@ -1366,11 +1367,6 @@ button {
 @media (min-width: 834px) {
   .grid-gap-50 {
     display: flex;
-    gap: 20px;
-  }
-}
-@media (min-width: 1240px) {
-  .grid-gap-50 {
     gap: 50px;
   }
 }
@@ -1707,15 +1703,57 @@ button {
   background-color: #1ba35b;
 }
 
-.subscription-card {
+.subscription-prices__title {
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
   text-align: center;
+}
+@media (min-width: 1240px) {
+  .subscription-prices__title {
+    font-size: 38px;
+    line-height: 1.5;
+  }
+}
+
+.subscription-prices__description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.subscription-prices__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+@media (min-width: 834px) {
+  .subscription-prices__grid {
+    flex-direction: row;
+  }
+}
+
+.subscription-card {
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 64px;
   padding-left: 24px;
+  text-align: center;
   background-position: center;
   background-size: cover;
   border-radius: 16px;
+}
+
+.subscription-card_bg-free {
+  background-image: url("../images/subscribe_1.png");
+}
+
+.subscription-card_bg-standard {
+  background-image: url("../images/subscribe_2.png");
+}
+
+.subscription-card_bg-premium {
+  background-image: url("../images/subscribe_3.png");
 }
 
 .subscription-card__title {
@@ -1731,40 +1769,31 @@ button {
   }
 }
 
-.subscription-card_bg-free {
-  background-image: url("../images/subscribe_1.png");
-}
-
-.subscription-card_bg-standard {
-  background-image: url("../images/subscribe_2.png");
-}
-
-.subscription-card_bg-premium {
-  background-image: url("../images/subscribe_3.png");
-}
-
 .subscription-card__price {
   font-size: 64px;
   line-height: 1;
+}
+
+.subscription-card__currency {
+  font-size: 32px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.subscription-card__btn {
+  display: block;
+  width: 100%;
+  border: 1px solid white;
+}
+.subscription-card__btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .subscription-card__description {
   font-size: 12.8px;
   line-height: 1.5;
   margin: 0;
-}
-
-.subscription-prices__description {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.currency {
-  font-size: 32px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  vertical-align: top;
 }
 
 @media (min-width: 1240px) {

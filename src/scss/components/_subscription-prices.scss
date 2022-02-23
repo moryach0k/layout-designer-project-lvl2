@@ -1,0 +1,19 @@
+.subscription-prices__title {
+  @include title-h2;
+  text-align: center;
+}
+
+.subscription-prices__description {
+  @include txt-sm;
+  text-align: center;
+}
+
+.subscription-prices__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  @include media-up(md) {
+    flex-direction: row;
+  }
+}

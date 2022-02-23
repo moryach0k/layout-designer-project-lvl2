@@ -14,45 +14,47 @@
     <title>Morten Harket</title>
   </head>
   <body>
-    <nav class="navigation">
-      <div class="navigation__wrapper">
-        <div class="navigation__left-side">
+    <header>
+      <nav class="navigation">
+        <div class="wrapper navigation__wrapper">
           <div class="logo mb-18 mb-md-0 mr-md-48" href="index.html">
             <img
               src="images/logo.svg"
               alt="Логотип Music Box"
+              width="24"
+              height="24"
               class="logo__img mr-16"
             />
-            <p class="logo__title">Music Box</p>
+            <p class="logo__title mt-0 mb-0">Music Box</p>
           </div>
           <ul class="navigation__items mb-18 mb-md-0">
-            <li class="navigation__item mr-md-24 mb-md-0">
-              <a class="navigation__link mb-2" href="index.html">Главная</a>
+            <li class="navigation__item mr-md-24">
+              <a class="mb-2" href="index.html">Главная</a>
             </li>
-            <li class="navigation__item mr-md-24 mb-md-0">
-              <a class="navigation__link mb-2" href="#">Каталог</a>
+            <li class="navigation__item mr-md-24">
+              <a class="mb-2" href="#">Каталог</a>
             </li>
-            <li class="navigation__item mr-md-24 mb-md-0">
+            <li class="navigation__item mr-md-24">
               <a
-                class="navigation__link mb-2 navigation__link_active"
+                class="navigation__link_active mb-2"
                 href="artist.html"
                 >Исполнители</a
               >
             </li>
-            <li class="navigation__item mr-md-24 mb-md-0">
-              <a class="navigation__link mb-2" href="#">Контакты</a>
+            <li class="navigation__item mr-md-24">
+              <a class="mb-2" href="#">Контакты</a>
             </li>
           </ul>
+          <form action="#" class="search-form">
+            <input
+              class="search-form__input"
+              type="search"
+              placeholder="Поиск..."
+            />
+          </form>
         </div>
-        <form action="#" class="search-form">
-          <input
-            class="search-form__input"
-            type="search"
-            placeholder="Поиск..."
-          />
-        </form>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <main>
       <div class="artist-preview artist-preview_bg-morten-harket" id="page-description">
         <div class="wrapper">

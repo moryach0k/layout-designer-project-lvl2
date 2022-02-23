@@ -14,45 +14,47 @@
     <title>Главная Music Box</title>
   </head>
   <body>
-    <nav class="navigation">
-      <div class="navigation__wrapper">
-        <div class="navigation__left-side">
+    <header>
+      <nav class="navigation">
+        <div class="wrapper navigation__wrapper">
           <div class="logo mb-18 mb-md-0 mr-md-48" href="index.html">
             <img
               src="images/logo.svg"
               alt="Логотип Music Box"
+              width="24"
+              height="24"
               class="logo__img mr-16"
             />
-            <p class="logo__title">Music Box</p>
+            <p class="logo__title mt-0 mb-0">Music Box</p>
           </div>
           <ul class="navigation__items mb-18 mb-md-0">
-            <li class="navigation__item mr-md-24 mb-md-0">
-              <a class="navigation__link mb-2" href="index.html">Главная</a>
+            <li class="navigation__item mr-md-24">
+              <a class="navigation__link_active mb-2" href="index.html">Главная</a>
             </li>
-            <li class="navigation__item mr-md-24 mb-md-0">
-              <a class="navigation__link mb-2" href="#">Каталог</a>
+            <li class="navigation__item mr-md-24">
+              <a class="mb-2" href="#">Каталог</a>
             </li>
-            <li class="navigation__item mr-md-24 mb-md-0">
+            <li class="navigation__item mr-md-24">
               <a
-                class="navigation__link mb-2 navigation__link_active"
+                class="mb-2"
                 href="artist.html"
                 >Исполнители</a
               >
             </li>
-            <li class="navigation__item mr-md-24 mb-md-0">
-              <a class="navigation__link mb-2" href="#">Контакты</a>
+            <li class="navigation__item mr-md-24">
+              <a class="mb-2" href="#">Контакты</a>
             </li>
           </ul>
+          <form action="#" class="search-form">
+            <input
+              class="search-form__input"
+              type="search"
+              placeholder="Поиск..."
+            />
+          </form>
         </div>
-        <form action="#" class="search-form">
-          <input
-            class="search-form__input"
-            type="search"
-            placeholder="Поиск..."
-          />
-        </form>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <main>
       <section class="hero hero_main-bg" id="page-description">
         <div class="wrapper">
@@ -83,7 +85,9 @@
         <div class="wrapper wrapper_pt-100" id="page-pricing">
           <h2 class="title-center mb-48">Формы подписки</h2>
           <div class="grid-gap-50">
-            <div class="subscription-card subscription-card_bg-free mb-50 mb-md-0">
+            <div
+              class="subscription-card subscription-card_bg-free mb-50 mb-md-0"
+            >
               <h3 class="subscription-card__title mb-200">Бесплатная</h3>
               <p class="subscription-card__price mb-40">
                 0 <span class="currency">руб.</span>
@@ -98,7 +102,9 @@
                 коллекции музыки. Присутствует реклама
               </p>
             </div>
-            <div class="subscription-card subscription-card_bg-standard mb-50 mb-md-0">
+            <div
+              class="subscription-card subscription-card_bg-standard mb-50 mb-md-0"
+            >
               <h3 class="subscription-card__title mb-200">Стандартная</h3>
               <p class="subscription-card__price mb-40">
                 250 <span class="currency">руб.</span>
@@ -161,7 +167,9 @@
                   width="19"
                   height="19"
                 />
-                <span class="news-card__author-name mr-16" href="#">Music box</span>
+                <span class="news-card__author-name mr-16" href="#"
+                  >Music box</span
+                >
                 <span class="news-card__publishing-date">17/01/2020</span>
               </div>
               <a
@@ -193,7 +201,9 @@
                   width="19"
                   height="19"
                 />
-                <span class="news-card__author-name mr-16" href="#">Music box</span>
+                <span class="news-card__author-name mr-16" href="#"
+                  >Music box</span
+                >
                 <span class="news-card__publishing-date">24/02/2020</span>
               </div>
               <a
@@ -278,9 +288,15 @@
             </div>
             <div>
               <h2 class="footer__header mb-16">Контакты</h2>
-              <a class="footer__item footer__link" href="mailto:hello@music.box">hello@music.box</a>
-              <p class="footer__item mt-0 mb-0">Russia, Moscow. Music Box studio</p>
-              <a class="footer__item footer__link" href="tel:+74999999999">+ 7 499 999 99 99</a>
+              <a class="footer__item footer__link" href="mailto:hello@music.box"
+                >hello@music.box</a
+              >
+              <p class="footer__item mt-0 mb-0">
+                Russia, Moscow. Music Box studio
+              </p>
+              <a class="footer__item footer__link" href="tel:+74999999999"
+                >+ 7 499 999 99 99</a
+              >
             </div>
             <div>
               <h2 class="footer__header mb-16">Подписывайтесь</h2>

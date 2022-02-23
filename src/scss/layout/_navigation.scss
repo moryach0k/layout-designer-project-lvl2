@@ -7,37 +7,18 @@
 }
 
 .navigation__wrapper {
-  padding-right: 20px;
-  padding-left: 20px;
-
   @include media-up(md) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  @include media-up(xl) {
-    width: 1200px;
-    margin: 0 auto;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-.navigation__left-side {
-  @include media-up(md) {
-    display: flex;
-    align-items: center;
+    @include d-flex-center;
   }
 }
 
 .navigation__items {
-  display: flex;
+  @include d-flex-start;
   flex-direction: column;
-  align-items: flex-start;
 
   @include media-up(md) {
     flex-direction: row;
+    flex-grow: 1;
   }
 }
 
@@ -48,12 +29,6 @@
 
   @include media-up(md) {
     font-weight: normal;
-  }
-}
-
-.navigation__link {
-  &:hover {
-    color: $white;
   }
 }
 

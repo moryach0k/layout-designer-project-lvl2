@@ -40,6 +40,10 @@ ul {
 a {
   color: $gray-90;
   text-decoration: none;
+
+  &:hover {
+    color: $white;
+  }
 }
 
 input {

@@ -1,17 +1,9 @@
 .logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo__img {
-  width: 24px;
-  height: 24px;
+  @include d-flex-center;
 }
 
 .logo__title {
   @include txt-xs;
-  margin-top: 0;
-  margin-bottom: 0;
   color: $white;
   font-weight: bold;
   text-transform: uppercase;

@@ -1,9 +1,0 @@
-.subscription-prices__grid {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-
-  @include media-up(md) {
-    flex-direction: row;
-  }
-}

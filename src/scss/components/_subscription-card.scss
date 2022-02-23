@@ -21,16 +21,6 @@
   background-image: url('../images/subscribe_3.png');
 }
 
-.subscription-card__title {
-  @include txt-sm;
-  font-weight: normal;
-  text-transform: uppercase;
-  
-  @include media-up(md) {
-    @include txt-lg;
-  }
-}
-
 .subscription-card__price {
   @include txt-7xl;
 }

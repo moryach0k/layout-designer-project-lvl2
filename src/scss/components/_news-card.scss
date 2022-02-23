@@ -1,6 +1,16 @@
 .news-card__image {
-  @include media-up(xl) {
-    width: 575px;
+  width: 100%;
+  
+  @include media-up(md) {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}
+
+.news-card__details {
+  @include media-up(md) {
+    flex-basis: 0;
+    flex-grow: 1;
   }
 }
 
@@ -10,13 +20,8 @@
   text-transform: capitalize;
 
   @include media-up(xl) {
-    font-size: 30px;
+    @include txt-xl;
   }
-}
-
-.news-card__description {
-  @include txt-sm;
-  color: $gray-90;
 }
 
 .news-card__author-name {
@@ -30,4 +35,16 @@
   @include txt-xs;
   display: inline-block;
   color: $gray-90;
+}
+
+.news-card__btn {
+  @include txt-xs;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: $gray-90;
+  border: 1px solid $gray-90;
+
+  &:hover {
+    background-color: $white-10;
+  }
 }

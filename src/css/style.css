@@ -1330,27 +1330,6 @@ button {
   }
 }
 
-.wrapper_test {
-  width: 100%;
-  padding-top: 100px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-@media (min-width: 1240px) {
-  .wrapper_test {
-    width: 1200px;
-  }
-}
-
-.wrapper_pt-100 {
-  padding-top: 100px;
-}
-
-.wrapper_py-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .d-grid {
   display: grid;
 }
@@ -1444,6 +1423,23 @@ button {
 
 .align-center {
   text-align: center;
+}
+
+.flex-gap-50 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+@media (min-width: 834px) {
+  .flex-gap-50 {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 834px) {
+  .flex-gap-50_row-reverse {
+    flex-direction: row-reverse;
+  }
 }
 
 .footer {
@@ -1699,17 +1695,6 @@ button {
   background-color: #1ba35b;
 }
 
-.subscription-prices__grid {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-@media (min-width: 834px) {
-  .subscription-prices__grid {
-    flex-direction: row;
-  }
-}
-
 .subscription-card {
   padding-top: 20px;
   padding-right: 24px;
@@ -1731,19 +1716,6 @@ button {
 
 .subscription-card_bg-premium {
   background-image: url("../images/subscribe_3.png");
-}
-
-.subscription-card__title {
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-@media (min-width: 834px) {
-  .subscription-card__title {
-    font-size: 24px;
-    line-height: 1.5;
-  }
 }
 
 .subscription-card__price {
@@ -1772,9 +1744,20 @@ button {
   line-height: 1.5;
 }
 
-@media (min-width: 1240px) {
+.news-card__image {
+  width: 100%;
+}
+@media (min-width: 834px) {
   .news-card__image {
-    width: 575px;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}
+
+@media (min-width: 834px) {
+  .news-card__details {
+    flex-basis: 0;
+    flex-grow: 1;
   }
 }
 
@@ -1787,13 +1770,8 @@ button {
 @media (min-width: 1240px) {
   .news-card__title {
     font-size: 30px;
+    line-height: 1.5;
   }
-}
-
-.news-card__description {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #cacaca;
 }
 
 .news-card__author-name {
@@ -1809,6 +1787,18 @@ button {
   line-height: 1.5;
   display: inline-block;
   color: #cacaca;
+}
+
+.news-card__btn {
+  font-size: 12.8px;
+  line-height: 1.5;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #cacaca;
+  border: 1px solid #cacaca;
+}
+.news-card__btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .artist-preview {

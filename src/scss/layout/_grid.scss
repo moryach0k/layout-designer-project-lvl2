@@ -11,26 +11,6 @@
   }
 }
 
-.wrapper_test {
-  width: 100%;
-  padding-top: 100px;
-  padding-right: 20px;
-  padding-left: 20px;
-
-  @include media-up(xl) {
-    width: 1200px;
-  }
-}
-
-.wrapper_pt-100 {
-  padding-top: 100px;
-}
-
-.wrapper_py-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .d-grid {
   display: grid;
 }
@@ -121,4 +101,20 @@
 
 .align-center {
   text-align: center;
+}
+
+.flex-gap-50 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  @include media-up(md) {
+    flex-direction: row;
+  }
+}
+
+.flex-gap-50_row-reverse {
+  @include media-up(md) {
+    flex-direction: row-reverse;
+  }
 }

@@ -1422,6 +1422,14 @@ button {
   gap: 50px;
 }
 
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
 .footer {
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }

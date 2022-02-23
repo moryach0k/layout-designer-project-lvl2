@@ -1,7 +1,35 @@
+.title-h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media (min-width: 1240px) {
+  .title-h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+}
+
+.title-h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media (min-width: 1240px) {
+  .title-h2 {
+    font-size: 38px;
+    line-height: 1.5;
+  }
+}
+
 h4 {
   font-size: 18px;
   line-height: 1.5;
   text-transform: uppercase;
+}
+
+.txt-center {
+  text-align: center;
 }
 
 .mx-0 {
@@ -1621,38 +1649,6 @@ button {
   background-image: url("../images/banner.png");
 }
 
-.hero__title {
-  font-size: 30px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  text-align: center;
-}
-@media (min-width: 1240px) {
-  .hero__title {
-    font-size: 60px;
-    line-height: 1.5;
-  }
-}
-
-.hero__subtitle {
-  font-size: 18px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  text-align: center;
-}
-@media (min-width: 1240px) {
-  .hero__subtitle {
-    font-size: 38px;
-    line-height: 1.5;
-  }
-}
-
-.hero__description {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-}
-
 .sign-up-form {
   display: block;
   margin: 0 auto;
@@ -1701,25 +1697,6 @@ button {
 }
 .sign-up-form__btn:hover {
   background-color: #1ba35b;
-}
-
-.subscription-prices__title {
-  font-size: 18px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  text-align: center;
-}
-@media (min-width: 1240px) {
-  .subscription-prices__title {
-    font-size: 38px;
-    line-height: 1.5;
-  }
-}
-
-.subscription-prices__description {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 .subscription-prices__grid {
@@ -1793,7 +1770,6 @@ button {
 .subscription-card__description {
   font-size: 12.8px;
   line-height: 1.5;
-  margin: 0;
 }
 
 @media (min-width: 1240px) {

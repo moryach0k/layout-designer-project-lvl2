@@ -8,18 +8,3 @@
 .hero_bg-banner {
   background-image: url('../images/banner.png');
 }
-
-.hero__title {
-  @include title-h1;
-  text-align: center;
-}
-
-.hero__subtitle {
-  @include title-h2;
-  text-align: center;
-}
-
-.hero__description {
-  @include txt-sm;
-  text-align: center;
-}

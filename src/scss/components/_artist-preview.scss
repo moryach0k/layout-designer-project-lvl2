@@ -13,6 +13,10 @@
   background-image: url('../images/Morten\ Harket.png');
 }
 
+.artist-preview__title {
+  @include title-h1;
+}
+
 .artitst-preview__subtitle {
   @include txt-sm;
 }

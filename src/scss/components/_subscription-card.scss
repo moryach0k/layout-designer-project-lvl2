@@ -40,3 +40,8 @@
   @include txt-xs;
   margin: 0;
 }
+
+.subscription-prices__description {
+  @include txt-sm;
+  @include txt-center;
+}

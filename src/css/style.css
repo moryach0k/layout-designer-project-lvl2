@@ -1493,11 +1493,19 @@ button {
   cursor: pointer;
 }
 
-.btn_md {
+.download-btn {
+  font-size: 12.8px;
+  line-height: 1.5;
   padding-top: 16px;
   padding-right: 40px;
   padding-bottom: 16px;
   padding-left: 40px;
+  text-transform: none;
+  background-color: #95390c;
+  border-radius: 32px;
+}
+.download-btn:hover {
+  background-color: #88360d;
 }
 
 .btn_sm {
@@ -1539,10 +1547,6 @@ button {
 
 .btn_rounded {
   border-radius: 32px;
-}
-
-.btn_tt-none {
-  text-transform: none;
 }
 
 .btn_green {

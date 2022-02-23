@@ -14,11 +14,19 @@
   }
 }
 
-.btn_md {
+.download-btn {
+  @include txt-xs;
   padding-top: 16px;
   padding-right: 40px;
   padding-bottom: 16px;
   padding-left: 40px;
+  text-transform: none;
+  background-color: $brown;
+  border-radius: $rounded-corners;
+
+  &:hover {
+    background-color: $brown-90;
+  }
 }
 
 .btn_sm {
@@ -60,10 +68,6 @@
 
 .btn_rounded {
   border-radius: $rounded-corners;
-}
-
-.btn_tt-none {
-  text-transform: none;
 }
 
 .btn_green {

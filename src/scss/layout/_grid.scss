@@ -15,8 +15,7 @@
   display: grid;
 }
 
-.grid_autofit-138 {
-  display: grid;
+.grid-autofit-cols-138px {
   grid-template-columns: repeat(auto-fit, 138px);
   column-gap: 50px;
   row-gap: 25px;
@@ -26,48 +25,13 @@
   }
 }
 
-.grid_autofit-270 {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  row-gap: 30px;
-  column-gap: 30px;
-
-  @include media-up(xl) {
-    grid-template-columns: repeat(auto-fit, 270px);
-    row-gap: 40px;
-  }
-}
-
-.grid_autofit-374 {
-  display: grid;
+.grid-autofit-cols-374px {
   grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
   column-gap: 50px;
   row-gap: 25px;
 
   @include media-up(xl) {
     grid-template-columns: repeat(auto-fit, 551px);
-  }
-}
-
-.flex-gap-24 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.flex-gap-16 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.flex-md-row {
-  @include media-up(md) {
-    flex-direction: row;
   }
 }
 

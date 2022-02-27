@@ -66,25 +66,6 @@
   text-align: left;
 }
 
-@mixin title-h1 {
-  @include txt-xl;
-  text-transform: uppercase;
-
-  @include media-up(xl) {
-    @include txt-6xl;
-  }
-}
-
-@mixin title-h2 {
-  @include txt-md;
-  text-transform: uppercase;
-  
-  @include media-up(xl) {
-    font-size: 38px;
-    line-height: 1.5;
-  }
-}
-
 .title-h1 {
   @include txt-xl;
   text-transform: uppercase;
@@ -102,11 +83,6 @@
     font-size: 38px;
     line-height: 1.5;
   }
-}
-
-h4 {
-  @include txt-md;
-  text-transform: uppercase;
 }
 
 .txt-center {

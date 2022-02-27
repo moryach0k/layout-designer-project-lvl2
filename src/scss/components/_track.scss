@@ -1,12 +1,10 @@
 .track {
-  display: flex;
-  align-items: center;
+  @include d-flex-center;
 }
 
 .track__info {
-  display: flex;
+  @include d-flex-center;
   flex-grow: 1;
-  align-items: center;
   justify-content: space-between;
 }
 

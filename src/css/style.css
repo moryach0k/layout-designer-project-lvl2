@@ -1426,6 +1426,10 @@ button {
   gap: 30px;
 }
 
+.gap-24 {
+  gap: 24px;
+}
+
 .gap-16 {
   gap: 16px;
 }
@@ -1516,72 +1520,9 @@ button {
   background-color: #88360d;
 }
 
-.btn_sm {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.btn_full-width {
-  display: block;
-  width: 100%;
-}
-
-.btn-outline {
-  border-style: solid;
-  border-width: 1px;
-}
-.btn-outline:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.btn-outline_white {
-  border-color: white;
-}
-
-.btn-outline_gray {
-  color: #cacaca;
-  border-color: #cacaca;
-}
-
-.btn_w-icon {
-  width: 200px;
-  text-align: left;
-}
-
-.btn_txt-xs {
-  font-size: 12.8px;
-  line-height: 1.5;
-}
-
-.btn_rounded {
-  border-radius: 32px;
-}
-
-.btn_green {
-  background-color: #34c176;
-}
-.btn_green:hover {
-  background-color: #1ba35b;
-}
-
-.btn_purple {
-  background-color: #5328a1;
-}
-.btn_purple:hover {
-  background-color: #421792;
-}
-
-.btn_brown {
-  background-color: #95390c;
-}
-.btn_brown:hover {
-  background-color: #88360d;
-}
-
 .btn__icon {
   width: 20px;
   height: 20px;
-  vertical-align: middle;
   filter: invert(1);
 }
 
@@ -1809,21 +1750,23 @@ button {
   background-image: url("../images/Morten Harket.png");
 }
 
-.artist-preview__title {
-  font-size: 30px;
+.artist-preview__btn {
+  font-size: 12.8px;
   line-height: 1.5;
-  text-transform: uppercase;
+  width: 200px;
+  text-align: left;
 }
-@media (min-width: 1240px) {
-  .artist-preview__title {
-    font-size: 60px;
-    line-height: 1.5;
-  }
+.artist-preview__btn_purple {
+  background-color: #5328a1;
 }
-
-.artitst-preview__subtitle {
-  font-size: 16px;
-  line-height: 1.5;
+.artist-preview__btn_purple:hover {
+  background-color: #421792;
+}
+.artist-preview__btn_brown {
+  background-color: #95390c;
+}
+.artist-preview__btn_brown:hover {
+  background-color: #88360d;
 }
 
 .track {

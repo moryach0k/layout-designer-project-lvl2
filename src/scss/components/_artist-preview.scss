@@ -13,10 +13,24 @@
   background-image: url('../images/Morten\ Harket.png');
 }
 
-.artist-preview__title {
-  @include title-h1;
-}
+.artist-preview__btn {
+  @include txt-xs;
+  width: 200px;
+  text-align: left;
 
-.artitst-preview__subtitle {
-  @include txt-sm;
+  &_purple {
+    background-color: $purple;
+
+    &:hover {
+      background-color: $purple-90;
+    }
+  }
+
+  &_brown {
+    background-color: $brown;
+
+    &:hover {
+      background-color: $brown-90;
+    }
+  }
 }

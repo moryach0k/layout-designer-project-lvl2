@@ -29,74 +29,8 @@
   }
 }
 
-.btn_sm {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.btn_full-width {
-  display: block;
-  width: 100%;
-}
-
-.btn-outline {
-  border-style: solid;
-  border-width: 1px;
-
-  &:hover {
-    background-color: $white-10;
-  }
-}
-
-.btn-outline_white {
-  border-color: $white;
-}
-
-.btn-outline_gray {
-  color: $gray-90;
-  border-color: $gray-90;
-}
-
-.btn_w-icon {
-  width: 200px;
-  text-align: left;
-}
-
-.btn_txt-xs {
-  @include txt-xs;
-}
-
-.btn_rounded {
-  border-radius: $rounded-corners;
-}
-
-.btn_green {
-  background-color: $green;
-  
-  &:hover {
-    background-color: $green-90;
-  }
-}
-
-.btn_purple {
-  background-color: $purple;
-
-  &:hover {
-    background-color: $purple-90;
-  }
-}
-
-.btn_brown {
-  background-color: $brown;
-
-  &:hover {
-    background-color: $brown-90;
-  }
-}
-
 .btn__icon {
   width: 20px;
   height: 20px;
-  vertical-align: middle;
   filter: invert(1);
 }

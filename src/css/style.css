@@ -1608,6 +1608,19 @@ button {
   background-image: url("../images/subscribe_3.png");
 }
 
+.subscription-card__title {
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+@media (min-width: 1240px) {
+  .subscription-card__title {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: normal;
+  }
+}
+
 .subscription-card__price {
   font-size: 64px;
   line-height: 1;

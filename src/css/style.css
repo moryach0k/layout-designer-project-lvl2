@@ -1634,6 +1634,8 @@ button {
 }
 
 .subscription-card__btn {
+  font-size: 16px;
+  line-height: 1.5;
   display: block;
   width: 100%;
   border: 1px solid white;

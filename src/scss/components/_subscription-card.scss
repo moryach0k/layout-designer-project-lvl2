@@ -45,6 +45,8 @@
   @include txt-sm;
   display: block;
   width: 100%;
+  padding-top: 21px;
+  padding-bottom: 21px;
   border: 1px solid $white;
 
   &:hover {

@@ -1638,6 +1638,8 @@ button {
   line-height: 1.5;
   display: block;
   width: 100%;
+  padding-top: 21px;
+  padding-bottom: 21px;
   border: 1px solid white;
 }
 .subscription-card__btn:hover {

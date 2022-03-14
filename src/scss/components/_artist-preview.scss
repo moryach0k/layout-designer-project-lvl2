@@ -1,12 +1,8 @@
 .artist-preview {
-  padding-top: 225px;
-  padding-bottom: 225px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-position: center;
   background-size: cover;
-
-  @include media-up(xl) {
-    padding-top: 250px;
-  }
 }
 
 .artist-preview_bg-morten-harket {

@@ -27,12 +27,11 @@
 
 .subscription-card__title {
   @include txt-sm;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
 
   @include media-up(xl) {
     @include txt-lg;
-    font-weight: normal;
   }
 }
 

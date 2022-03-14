@@ -1,5 +1,6 @@
 .subscription-card {
   padding-right: 24px;
+  padding-bottom: 64px;
   padding-left: 24px;
   text-align: center;
   background-position: center;
@@ -21,6 +22,7 @@
 
 .subscription-card__title {
   @include txt-sm;
+  font-weight: 700;
   text-transform: uppercase;
 
   @include media-up(xl) {
@@ -43,8 +45,8 @@
   @include txt-sm;
   display: block;
   width: 100%;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: 1px solid $white;
 
   &:hover {

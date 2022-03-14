@@ -1,4 +1,5 @@
 .subscription-card {
+  padding-top: 16px;
   padding-right: 24px;
   padding-bottom: 64px;
   padding-left: 24px;
@@ -6,6 +7,10 @@
   background-position: center;
   background-size: cover;
   border-radius: 16px;
+
+  @include media-up(xl) {
+    padding-top: 24px;
+  }
 }
 
 .subscription-card_bg-free {

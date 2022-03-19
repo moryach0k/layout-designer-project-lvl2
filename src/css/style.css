@@ -27,29 +27,29 @@
 }
 
 .mx-0 {
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .mt-0 {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .mr-0 {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .mb-0 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .ml-0 {
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .mx-2 {
@@ -444,29 +444,29 @@
 
 @media (min-width: 834px) {
   .mx-md-0 {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .my-md-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .mt-md-0 {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .mr-md-0 {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .mb-md-0 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .ml-md-0 {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .mx-md-2 {
@@ -861,29 +861,29 @@
 }
 @media (min-width: 1240px) {
   .mx-xl-0 {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .my-xl-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .mt-xl-0 {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .mr-xl-0 {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .mb-xl-0 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .ml-xl-0 {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .mx-xl-2 {
@@ -1276,6 +1276,7 @@
     margin-left: 200px;
   }
 }
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -1297,8 +1298,8 @@ html {
 
 body {
   margin: 0;
-  color: white;
-  font-family: "Roboto", Arial, sans-serif;
+  color: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
   background-color: #08020d;
 }
 
@@ -1328,18 +1329,19 @@ a {
   color: #cacaca;
   text-decoration: none;
 }
+
 a:hover {
-  color: white;
+  color: #fff;
 }
 
 input {
   padding: 0;
-  color: white;
+  color: #fff;
   border: 0;
 }
 
 button {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 .navigation {
@@ -1359,8 +1361,8 @@ button {
 
 .navigation__items {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
+  align-items: flex-start;
 }
 @media (min-width: 834px) {
   .navigation__items {
@@ -1370,9 +1372,9 @@ button {
 }
 
 .navigation__item {
+  font-weight: bold;
   font-size: 11px;
   line-height: 1.5;
-  font-weight: bold;
   text-transform: uppercase;
 }
 @media (min-width: 834px) {
@@ -1382,10 +1384,11 @@ button {
 }
 
 .navigation__link_active {
-  color: white;
+  color: #fff;
 }
+
 .navigation__link_active:visited {
-  color: white;
+  color: #fff;
 }
 
 .wrapper {
@@ -1481,7 +1484,7 @@ button {
 .footer__secondary-menu {
   padding-top: 43px;
   padding-bottom: 48px;
-  border-top: 1px solid white;
+  border-top: 1px solid #fff;
 }
 
 .footer__column {
@@ -1497,13 +1500,13 @@ button {
 }
 
 .footer__item {
+  color: #cacaca;
   font-size: 16px;
   line-height: 1.5;
-  color: #cacaca;
 }
 
 .footer__link:hover {
-  color: white;
+  color: #fff;
 }
 
 .footer__social-links {
@@ -1518,10 +1521,10 @@ button {
 }
 
 .logo__title {
+  color: #fff;
+  font-weight: bold;
   font-size: 12.8px;
   line-height: 1.5;
-  color: white;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -1531,26 +1534,28 @@ button {
   padding-right: 30px;
   padding-bottom: 20px;
   padding-left: 30px;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   border-width: 0;
   border-radius: 5px;
 }
+
 .btn:hover {
   cursor: pointer;
 }
 
 .download-btn {
-  font-size: 12.8px;
-  line-height: 1.5;
   padding-top: 16px;
   padding-right: 40px;
   padding-bottom: 16px;
   padding-left: 40px;
+  font-size: 12.8px;
+  line-height: 1.5;
   text-transform: none;
   background-color: #95390c;
   border-radius: 32px;
 }
+
 .download-btn:hover {
   background-color: #88360d;
 }
@@ -1567,7 +1572,7 @@ button {
 }
 
 .paragraph_white {
-  color: white;
+  color: #fff;
 }
 
 .paragraph_gray {
@@ -1589,16 +1594,19 @@ button {
   background-color: #3c3b3d;
   border-radius: 50px;
 }
+
 .search-form__input:hover {
-  outline: 2px solid white;
+  outline: 2px solid #fff;
 }
+
 .search-form__input:focus {
-  outline: 2px solid white;
+  outline: 2px solid #fff;
 }
+
 .search-form__input::placeholder {
+  color: #757575;
   font-size: 12.8px;
   line-height: 1.5;
-  color: #757575;
   text-transform: uppercase;
 }
 
@@ -1610,7 +1618,7 @@ button {
 }
 
 .hero_bg-banner {
-  background-image: url("../images/banner.png");
+  background-image: url('../images/banner.png');
 }
 
 .sign-up-form {
@@ -1644,14 +1652,17 @@ button {
     flex-basis: 270px;
   }
 }
+
 .sign-up-form__input:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .sign-up-form__input:focus {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .sign-up-form__input::placeholder {
-  color: white;
+  color: #fff;
 }
 
 .sign-up-form__btn {
@@ -1659,6 +1670,7 @@ button {
   width: 100%;
   background-color: #34c176;
 }
+
 .sign-up-form__btn:hover {
   background-color: #1ba35b;
 }
@@ -1680,21 +1692,21 @@ button {
 }
 
 .subscription-card_bg-free {
-  background-image: url("../images/subscribe_1.png");
+  background-image: url('../images/subscribe_1.png');
 }
 
 .subscription-card_bg-standard {
-  background-image: url("../images/subscribe_2.png");
+  background-image: url('../images/subscribe_2.png');
 }
 
 .subscription-card_bg-premium {
-  background-image: url("../images/subscribe_3.png");
+  background-image: url('../images/subscribe_3.png');
 }
 
 .subscription-card__title {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
   text-transform: uppercase;
 }
 @media (min-width: 1240px) {
@@ -1717,14 +1729,15 @@ button {
 }
 
 .subscription-card__btn {
-  font-size: 16px;
-  line-height: 1.5;
   display: block;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1px solid white;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #fff;
 }
+
 .subscription-card__btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1752,9 +1765,9 @@ button {
 }
 
 .news-card__title {
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: normal;
   text-transform: capitalize;
 }
 @media (min-width: 1240px) {
@@ -1765,28 +1778,29 @@ button {
 }
 
 .news-card__author-name {
-  font-size: 12.8px;
-  line-height: 1.5;
   display: inline-block;
   color: #f89202;
+  font-size: 12.8px;
+  line-height: 1.5;
   text-transform: uppercase;
 }
 
 .news-card__publishing-date {
-  font-size: 12.8px;
-  line-height: 1.5;
   display: inline-block;
   color: #cacaca;
+  font-size: 12.8px;
+  line-height: 1.5;
 }
 
 .news-card__btn {
-  font-size: 12.8px;
-  line-height: 1.5;
   padding-top: 16px;
   padding-bottom: 16px;
   color: #cacaca;
+  font-size: 12.8px;
+  line-height: 1.5;
   border: 1px solid #cacaca;
 }
+
 .news-card__btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1799,24 +1813,28 @@ button {
 }
 
 .artist-preview_bg-morten-harket {
-  background-image: url("../images/Morten Harket.png");
+  background-image: url('../images/Morten Harket.png');
 }
 
 .artist-preview__btn {
+  width: 200px;
   font-size: 12.8px;
   line-height: 1.5;
-  width: 200px;
   text-align: left;
 }
+
 .artist-preview__btn_purple {
   background-color: #5328a1;
 }
+
 .artist-preview__btn_purple:hover {
   background-color: #421792;
 }
+
 .artist-preview__btn_brown {
   background-color: #95390c;
 }
+
 .artist-preview__btn_brown:hover {
   background-color: #88360d;
 }
@@ -1828,28 +1846,28 @@ button {
 
 .track__info {
   display: flex;
-  align-items: center;
   flex-grow: 1;
+  align-items: center;
   justify-content: space-between;
 }
 
 .track__name {
+  color: #fff;
   font-size: 12.8px;
   line-height: 1.5;
-  color: white;
   text-transform: uppercase;
 }
 
 .track__artist {
+  color: #e0e0e0;
   font-size: 12.8px;
   line-height: 1.5;
-  color: #e0e0e0;
 }
 
 .track__length {
+  color: #e0e0e0;
   font-size: 12.8px;
   line-height: 1.5;
-  color: #e0e0e0;
 }
 
 .track__cover {
@@ -1862,17 +1880,17 @@ button {
 }
 
 .album__title {
+  color: #fff;
   font-size: 18px;
   line-height: 1.5;
-  color: white;
   text-transform: capitalize;
 }
 
 .album__year {
-  font-size: 16px;
-  line-height: 1.5;
   display: block;
   color: #e0e0e0;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .album__cover {
@@ -1886,23 +1904,23 @@ button {
 }
 
 .artist {
-  text-align: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .artist__name {
+  color: #fff;
   font-size: 18px;
   line-height: 1.5;
-  color: white;
   text-transform: capitalize;
 }
 
 .artist__fans {
-  font-size: 16px;
-  line-height: 1.5;
   display: block;
   color: #e0e0e0;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .artist__photo {
@@ -1914,5 +1932,3 @@ button {
     height: 250px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
